@@ -1,3 +1,9 @@
+#    PARAMETROS GENERALES
+#-------------------------------------
+
+valores_entradas_X = [[1., 0.], [1., 1.], [0., 1.], [0., 0.]]
+valores_a_predecir_Y = [[0.], [1.], [0.], [0.]]
+
 #    PARÁMETROS DE LA RED
 #-------------------------------------
 import tensorflow as tf
@@ -34,3 +40,6 @@ funcion_error = tf.reduce_sum(tf.pow(tf_valores_reales_Y-prediccion,2))
 
 #Descenso de gradiente con una tasa de aprendizaje fijada a 0,1
 optimizador = tf.train.GradientDescentOptimizer(learning_rate=0.1).minimize(funcion_error)
+
+
+
