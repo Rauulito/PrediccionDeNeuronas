@@ -8,7 +8,7 @@ from Programacion_del_perceptron import Perceptron
 
 
 def iniciar():
-    print("Iniciando...")
+    print("Iniciando....")
 
 def iniciar():
     while True:
