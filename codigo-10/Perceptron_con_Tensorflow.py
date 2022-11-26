@@ -76,7 +76,7 @@ def Perceptron_Tensor():
     #-------------------------------------
 
     #Cantidad de epochs
-    epochs = 10000
+    epochs = 5000
 
     #Inicialización de la variable
     init = tf.compat.v1.global_variables_initializer()
@@ -116,4 +116,3 @@ def Perceptron_Tensor():
 
     sesion.close()
 
-Perceptron_Tensor()

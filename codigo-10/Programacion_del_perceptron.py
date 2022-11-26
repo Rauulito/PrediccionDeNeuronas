@@ -205,4 +205,3 @@ def Perceptron():
     print("Predicción = " + str(valor_predicho))
 
 
-Perceptron()
