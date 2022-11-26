@@ -26,8 +26,8 @@ def calculo_nuevo_peso (valor_peso, valor_ajuste):
     return (valor_peso - valor_ajuste)
 
 def calculo_MSE(predicciones_realizadas, predicciones_esperadas):
-    i=0;
-    suma=0;
+    i=0
+    suma=0
     for prediccion in predicciones_esperadas:
         diferencia = predicciones_esperadas[i] - predicciones_realizadas[i]
         cuadradoDiferencia = diferencia * diferencia
